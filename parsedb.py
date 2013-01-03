@@ -2,7 +2,7 @@
 import urllib2
 import re
 def parsedb(url, num_tr):
-  try:
+	try:
 		page = urllib2.urlopen(url)
 		pagestr = page.read()
 	except:
