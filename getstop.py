@@ -3,7 +3,7 @@ import urllib2
 import re
 
 def getstops(url, num_tr):
-  try:
+	try:
 		page = urllib2.urlopen(url)
 		pagestr = page.read()
 	except:
